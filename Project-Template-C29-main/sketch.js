@@ -48,7 +48,7 @@ function setup() {
   //Matter.Composite.add(bridge.body);
 
 
-  jointLink = new Link(bridge, jointPoint);
+  //jointLink = new Link(bridge, jointPoint);
 
   for (var i = 0; i <= 8; i++) {
     var x = random(width / 2 - 200, width / 2 + 300);
@@ -63,7 +63,7 @@ function draw() {
   Engine.update(engine);
 
   ground.show();
-  bridge.show();
+  //bridge.show();
   leftWall.show();
   rightWall.show();
 
